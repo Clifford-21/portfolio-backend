@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-f(-ryk!2h#=1j=nia(f8guekh!+eec8huljvv)m%1_5t3%7ked
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "http://13.53.245.61"]
+ALLOWED_HOSTS = ["127.0.0.1", "13.53.245.61"]
 
 
 # Application definition
@@ -59,7 +59,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://the-cliffords.herokuapp.com",
     'http://localhost:8000',
-    "http://13.53.245.61",    
+    "13.53.245.61",    
 ]
 
 ROOT_URLCONF = 'base.urls'
