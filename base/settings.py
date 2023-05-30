@@ -59,7 +59,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://the-cliffords.herokuapp.com",
     'http://localhost:8000',
-    "http://13.53.245.61:8000",    
+    "http://13.53.245.61",    
 ]
 
 ROOT_URLCONF = 'base.urls'
